@@ -1,6 +1,7 @@
 /* variable */
 :root{
   --primary-color:#ef8008;
+  --secondary-color:#0b6cbb;
 }
 
 body {
@@ -40,9 +41,27 @@ ul {
   color: var(--primary-color);
   font-size: 48px;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+}
+.section {
+  padding: 80px 0;
+}
+.button{
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 4px;
+}
+.button:hover{
+  background-color: var(--secondary-color) !important;
+  transition: 0.3s;
+  color:#fff !important   ;
 }
 
+/****/
 header {
   background: #fff;
 }
@@ -252,6 +271,9 @@ footer .row {
   max-width: 1000px;
   margin: auto;
 }
+.journey-inner h2 {
+  margin-bottom: 20px;
+}
  /* .privacy-term */
  .privacy-term {
   padding: 60px 0;
@@ -286,7 +308,181 @@ footer .row {
 .privacy-term a:hover{
   color: var(--primary-color);
 }
+/***surinder**/
+/* why choose us */
 
+.why_card img {
+  max-width: 60px;
+}
+
+.why_card h3 {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.why_card {
+  text-align: center;
+  border-radius: 5px;
+  height: 100%;
+  padding: 30px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.why_card p {
+  line-height: 26px;
+}
+/* explore like never before */
+.never_before {
+  background-color: whitesmoke;
+}
+
+.right_side_never_before img {
+  border-radius: 5px;
+}
+
+.never_before_card h4 {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.never_before_card h4::before {
+  position: absolute;
+  content: '';
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background: var(--primary-color);
+  width: 150px;
+  height: 2px;
+  bottom: -5px;
+}
+
+.never_before_card p {
+  line-height: 26px;
+}
+
+.never_before_card {
+  border-radius: 5px;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #fff;
+}
+
+.img_for_never a img {
+  border-radius: 5px;
+}
+/* hotels */
+.hotel_card .contact_hotel {
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.hotel_card h4 {
+  position: relative;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.hotel_card h4:before {
+  position: absolute;
+  content: '';
+  background: var(--primary-color);
+  width: 100%;
+  height: 2px;
+  bottom: -3px;
+}
+.hotel_card .hotel_des {
+  padding: 30px 20px;
+}
+.hotel_card img {
+  height: 340px;
+  width: 100%;
+  object-fit: cover;
+  }
+
+.hotel_card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  height: 100%;
+}
+/* casino */
+
+.casino_card a img {
+  border-radius: 5px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.casino_content p {
+  margin: 16px 0;
+  color: #767676;
+}
+
+.casino_content .book_now {
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.casino_content {
+  padding: 30px 20px;
+  margin: -73px auto 0;
+  width: 100%;
+  max-width: 75%;
+  text-align: center;
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+}
+.casino_card {
+  margin-bottom: 40px;
+}  
+.casino_card .button {
+  background: transparent;
+  color: var(--primary-color);
+}
+.casino.section {
+  background: whitesmoke;
+}
+
+/***sports-csrd***/
+
+.sports_card {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border: 1px solid var(--primary-color);
+}
+
+.sports_card a {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+.sports_card p {
+  margin: 30px 15px;
+}
+.sports_card img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  }
 
 
 
