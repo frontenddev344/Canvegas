@@ -19,12 +19,15 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
     rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
 </head>
 
 <body>
   <!-- header -->
   <header>
     <nav class="nav ">
+      <input type="checkbox" id="nav-check">
       <div class="nav-header">
         <div class="nav-title">
           <a href="/">
@@ -41,7 +44,7 @@
       </div>
       <ul class="nav-list">
         <li><a href="#" class="active">home</a></li>
-        <li><a href="#">Hotels</a></li>
+        <li><a href="./hotels.html">Hotels</a></li>
         <li><a href="#">Cuisine</a></li>
         <li><a href="#">Casino</a></li>
         <li><a href="#">Events</a></li>
@@ -483,12 +486,26 @@
     </div>
   </footer>
 
-
+  <div class="cookie-alert show">
+    <div class="card-body">
+      <div class="cookie-content">
+      <h4>This website uses cookies</h4>
+      <p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+      </p>
+    </div>
+      <div class="accept-btn">
+        <a href="#" class="accept-cookies button">I Accept</a>
+      </div>
+    </div>
+  </div>
 
 
 
   <script src="./assets/js/bootstrap.bundle.js"></script>
   <script src="./assets/js/script.js"></script>
+  <script>
+    
+  </script>
 </body>
 
 </html>
