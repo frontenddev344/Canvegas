@@ -434,12 +434,13 @@ footer .row {
   width: 100%;
   object-fit: cover;
 }
-
 .hotel_card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 5px;
   height: 100%;
+
 }
+
 
 /* casino */
 
@@ -647,7 +648,7 @@ footer .row {
   border-radius: 5px;
   height: 100%;
   min-height: 300px;
-  background-image: url(../images/dish1.jpg);
+  background-image: url(../images/food2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -659,14 +660,14 @@ footer .row {
   color: #fff;
 }
 .cuisine_card.ctwo{
-background-image: url(../images/dish2.jpg);
+background-image: url(../images/food5.jpg);
 }
 .cuisine_card.cthree{
-  background-image: url(../images/dish3.jpg);
+  background-image: url(../images/food3.jpg);
 }
 
 .cuisine_card.cfour{
-  background-image: url(../images/dish4.jpg);
+  background-image: url(../images/food4.jpg);
 }
 
 .cuisine_card.cfive{
@@ -764,4 +765,31 @@ label {
 .right_contact{
   position: relative;
   z-index: 1;
+}
+
+
+
+
+/* new changes */
+
+.img_for_never {
+  overflow: hidden;
+}
+
+.img_for_never img {
+  transition: 0.6s;
+}
+
+.img_for_never img:hover {
+  transform: scale(1.1);
+}
+
+.hotel_card_img{
+  overflow: hidden;
+}
+.hotel_card_img img{
+  transition: 0.6s;
+}
+.hotel_card_img img:hover {
+  transform: scale(1.1);
 }
