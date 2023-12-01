@@ -63,6 +63,7 @@ ul {
   text-transform: capitalize;
   display: inline-block;
   border-radius: 4px;
+  position: relative;
 }
 
 .button:hover {
@@ -611,4 +612,83 @@ footer .row {
   font-size: 22px;
   line-height: 32px;
   color: #ef8008;
+}
+
+
+/* cuisine */
+
+.cuisine_second.section {
+  background: whitesmoke;
+}
+.left_cuisine {
+  border: 2px solid #ef8008;
+  padding: 20px 15px;
+  border-right: transparent;
+}
+.left_cuisine p {
+  font-size: 18px;
+}
+
+.cuisine_second .left_cuisine
+{
+  border: 2px solid #ef8008;
+  border-left: transparent;
+}
+
+.cuisine_Disclaimer p{
+  font-size: 20px;
+}
+
+.cuisine_card {
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 5px;
+  height: 100%;
+  min-height: 300px;
+  background-image: url(../images/dish1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.cuisine_card p {
+  height: 100%;
+  position: relative;
+  color: #fff;
+}
+.cuisine_card.ctwo{
+background-image: url(../images/dish2.jpg);
+}
+.cuisine_card.cthree{
+  background-image: url(../images/dish3.jpg);
+}
+
+.cuisine_card.cfour{
+  background-image: url(../images/dish4.jpg);
+}
+
+.cuisine_card.cfive{
+  background-image: url(../images/dish5.jpg);
+}
+
+.cuisine_card.csix{
+  background-image: url(../images/dish6.jpg);
+}
+
+.cuisine_card.cseven{
+  background-image: url(../images/dish7.jpg);
+}
+
+.cuisine_card.ceight{
+  background-image: url(../images/dish8.jpg);
+}
+.cuisine_card::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #000000a6;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
