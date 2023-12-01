@@ -813,3 +813,19 @@ html,body{
   overflow-x: hidden!important;
   width: 100%!important;
 }
+
+.banner.contactb{
+  background-image: url("../images/Contactusbanner.jpg");
+}
+.banner.cuisineb{
+  background-image: url("../images/Aboutusbanner.jpg");
+}
+.banner.resortb{
+  background-image: url("../images/Resorts.jpg");
+}
+.banner.aboutb{
+  background-image: url("../images/Aboutusbanner.jpg");
+}
+.banner.sportsb{
+  background-image: url("../images/Sportsbanner.jpg");
+}
