@@ -715,3 +715,53 @@ background-image: url(../images/dish2.jpg);
   margin-bottom: 0;
   bottom: 0;
 }
+
+
+/* 
+contact us */
+
+.form_cls {
+  text-align: start;
+  margin-bottom: 25px;
+}
+
+.form-control {
+  padding: 8px 10px;
+  border-radius: unset;
+ 
+}
+label {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.left_contact {
+  text-align: center;
+}
+.left_contact p
+{
+  font-size: 20px;
+}
+.contact {
+  background: url(../images/pattern.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.contact:after {
+  content: "";
+  background: rgb(245 245 245 / 90%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.left_contact{
+  position: relative;
+  z-index: 1;
+}
+.right_contact{
+  position: relative;
+  z-index: 1;
+}
