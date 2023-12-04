@@ -296,11 +296,13 @@ footer .row {
   padding: 60px 0;
 }
 
-.privacy-term h1 {
+.privacy-term h2.main-heading {
   text-align: center;
   margin-bottom: 60px;
+  font-size: 48px;
+  border: none;
+  display: block;
 }
-
 .privacy-term h2 {
   border-bottom: 2px solid var(--primary-color);
   display: inline-block;
