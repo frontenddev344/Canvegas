@@ -813,12 +813,14 @@ html,body{
   overflow-x: hidden!important;
   width: 100%!important;
 }
-
+.banner.hotelb{
+  background-image: url("../images/Hotelbanner.jpg");
+}
 .banner.contactb{
   background-image: url("../images/Contactusbanner.jpg");
 }
 .banner.cuisineb{
-  background-image: url("../images/Aboutusbanner.jpg");
+  background-image: url("../images/Cuisinebanner.jpg");
 }
 .banner.resortb{
   background-image: url("../images/Resorts.jpg");
@@ -828,4 +830,7 @@ html,body{
 }
 .banner.sportsb{
   background-image: url("../images/Sportsbanner.jpg");
+}
+.banner.pritermb{
+  background-image: url("../images/Privacyandtermcondition.jpg");
 }
