@@ -833,4 +833,5 @@ html,body{
 }
 .banner.pritermb{
   background-image: url("../images/Privacyandtermcondition.jpg");
+  background-position: bottom;
 }
